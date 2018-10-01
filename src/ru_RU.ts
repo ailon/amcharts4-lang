@@ -11,6 +11,39 @@ export default {
 	"_decimalSeparator": ",",
 	"_thousandSeparator": " ",
 
+	// Suffixes for numbers
+	// When formatting numbers, big or small numers might be reformatted to
+	// shorter version, by applying a suffix.
+	// 
+	// For example, 1000000 might become "1m".
+	// Or 1024 might become "1KB" if we're formatting byte numbers.
+	// 
+	// This section defines such suffixes for all such cases.
+	"_big_number_suffix_3": "тыс",
+	"_big_number_suffix_6": "млн",
+	"_big_number_suffix_9": "млрд",
+	"_big_number_suffix_12": "трлн",
+	"_big_number_suffix_15": "квадрлн",
+	"_big_number_suffix_18": "квинтлн",
+	"_big_number_suffix_21": "секстлн",
+	"_big_number_suffix_24": "септлн",
+
+	"_small_number_suffix_3": "м",
+	"_small_number_suffix_6": "мк",
+	"_small_number_suffix_9": "н",
+	"_small_number_suffix_12": "п",
+	"_small_number_suffix_15": "ф",
+	"_small_number_suffix_18": "а",
+	"_small_number_suffix_21": "з",
+	"_small_number_suffix_24": "и",
+
+	"_byte_suffix_B": "Б",
+	"_byte_suffix_KB": "кбайт",
+	"_byte_suffix_MB": "Мбайт",
+	"_byte_suffix_GB": "Гбайт",
+	"_byte_suffix_TB": "Тбайт",
+	"_byte_suffix_PB": "Пбайт",	
+
 	// Default date formats for various periods
 	"_date_millisecond": "mm:ss SSS",
 	"_date_second": "HH:mm:ss",
